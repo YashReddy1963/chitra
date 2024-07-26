@@ -1,0 +1,9 @@
+[project] 
+name = "chitra"
+version = "0.1.0"
+description = "An attempt at making a FOSS alternative for Cleanshot X"
+
+[tool.ruff.format]
+docstring-code-format = true
+exclude= [ "generated"]
+indent-style = "tab"
