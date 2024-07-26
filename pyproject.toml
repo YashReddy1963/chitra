@@ -7,6 +7,5 @@ author = [
 ]
 
 [tool.ruff.format]
-docstring-code-format = true
 exclude= [ "generated"]
 indent-style = "tab"

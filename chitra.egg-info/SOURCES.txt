@@ -1,0 +1,8 @@
+LICENSE
+README.md
+main.py
+pyproject.toml
+chitra.egg-info/PKG-INFO
+chitra.egg-info/SOURCES.txt
+chitra.egg-info/dependency_links.txt
+chitra.egg-info/top_level.txt
