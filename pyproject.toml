@@ -3,7 +3,9 @@ name = "chitra"
 version = "0.1.0"
 description = "An attempt at making a FOSS alternative for Cleanshot X"
 author = [
-  {name="team chitra", email="mangeshrex@tutanota.com"}
+  {name = 'mangesh'},
+  {name = 'yash'},
+  {name = 'jacob'}
 ]
 
 [tool.ruff.format]

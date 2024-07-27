@@ -9,7 +9,7 @@ class Chitra(Gtk.Application):
         GLib.set_application_name("Test")
 
     def do_activate(self):
-        window = Gtk.ApplicationWindow(application=self, title="Hello World")
+        window = Gtk.ApplicationWindow(application=self, title="Chitra")
         window.present()
 
 app = Chitra()
