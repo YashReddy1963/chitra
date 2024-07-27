@@ -7,7 +7,3 @@ author = [
   {name = 'yash'},
   {name = 'jacob'}
 ]
-
-[tool.ruff.format]
-exclude= [ "generated"]
-indent-style = "tab"

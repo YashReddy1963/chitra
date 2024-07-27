@@ -1,12 +1,18 @@
 import sys 
 import gi 
-from gi.repository import GLib, Gtk 
 gi.require_version("Gtk", "4.0")
+from gi.repository import GLib, Gtk 
 
 class Chitra(Gtk.Application):
-    def __init__(self):
-        super().__init__(application_id="com.chitra.screenshot")
-        GLib.set_application_name("Test")
+    # Post screenshot customization 
+    def customizeScreennshot(self):
+        super().customizeScreenshot(application_id="com.chitra.postScreenshot") 
+
+        box = self.get_content_area()
+        label = Gtk.Label(label="Chitra -- customize your screenshot")
+        box.add(label)
+
+        GLib.set_application_name("Chitra")
 
     def do_activate(self):
         window = Gtk.ApplicationWindow(application=self, title="Chitra")
