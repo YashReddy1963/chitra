@@ -8,3 +8,5 @@ Chitra (चित्र) in marathi means a drawing. Chitra is an attempt at mak
 - create a virtual environment with `python3 -m venv .venv`.
 - `source .venv/bin/activate`
 - `cd chitra && pip install ./`
+- Perform ruff checks before pushing in the project directory.
+- `ruff check`
