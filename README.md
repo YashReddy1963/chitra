@@ -1,12 +1,15 @@
 # Chitra
 
-Chitra (चित्र) in marathi means a drawing. Chitra is an attempt at making a FOSS alternative for the popular Cleanshot X Screenshot tool in the MacOS Ecosystem. 
+Chitra (चित्र) in marathi means a Picture. Chitra is an attempt at making a FOSS alternative for the popular Cleanshot X Screenshot tool in the MacOS Ecosystem. 
 
 ### Install (for development)
 
-- `git clone https://github.com/mangeshrex/chitra`
-- create a virtual environment with `python3 -m venv .venv`.
-- `source .venv/bin/activate`
-- `cd chitra && pip install ./`
-- Perform ruff checks before pushing in the project directory.
-- `ruff check`
+- `git clone https://github.com/YashReddy1963/chitra`
+- Run the below command to install pillow package
+    ```bash
+        sudo apt install python3-pillow
+    ```
+- `cd chitra/ `
+    ```bash
+        python3 main.py
+    ```
